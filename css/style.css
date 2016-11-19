@@ -51,8 +51,12 @@ a {
   color: #FC0D1B;
 }
 
+a:hover {
+  color: #DE0D1A;
+}
+
 /* Buttons */
-a.button {
+.button {
   color: #fff;
   background-color: #FC0D1B;
   border-radius: 3px;
@@ -60,4 +64,9 @@ a.button {
   font-size: 1.3em;
 
   padding: 0.8em;
+}
+
+.button:hover {
+  color: inherit;
+  background-color: #DE0D1A;
 }
